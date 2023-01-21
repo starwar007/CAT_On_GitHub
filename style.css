@@ -9,7 +9,7 @@ a {
 }
 
 i {
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 header,
@@ -22,6 +22,11 @@ footer {
     box-shadow: 0 0 2px 0 #0002;
 }
 
+header a span{
+    font-size: 28px;
+    font-weight: 700;
+}
+
 main {
     padding: 20px;
     display: grid;
@@ -31,6 +36,12 @@ main {
     align-content: flex-start;
 }
 
+main div span {
+    font-size: 35px;
+    opacity: 0.5;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+}
 .btn {
     min-width: 30px;
     height: 30px;

@@ -2,7 +2,7 @@ let main = document.querySelector("main");
 cats.forEach(function (cat) {
   let card = `<div class="${cat.favourite ? "card like" : "card"
     }" style="background-image: url(${cat.img_link})">
-         <span>${cat.name}</span>
+         <span>${cat.name.toUpperCase()}</span>
          </div>`;
   main.innerHTML += card;
 });
@@ -49,7 +49,7 @@ form.addEventListener("submit", e => {
   let new_cat = body;
   let card = `<div class="${new_cat.favourite ? "card like" : "card"
     }" style="background-image: url(${new_cat.img_link})">
-         <span>${new_cat.name}</span>
+         <span>${new_cat.name.toUpperCase()}</span>
          </div>`;
   main.innerHTML += card;
   let cards = main.querySelectorAll(".card");
