@@ -20,7 +20,12 @@ footer {
     align-items: center;
     padding: 20px;
     box-shadow: 0 0 2px 0 #0002;
+    background-color:#f8f7f7;
 }
+
+footer a{
+    font-size: 24px;
+    }
 
 header a span{
     font-size: 28px;
